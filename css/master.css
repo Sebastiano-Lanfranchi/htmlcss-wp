@@ -24,15 +24,31 @@ p{
 }
 /* end utility class */
 
+.container{
+  width: 1200px;
+}
+
 /* testata */
 
 header{
   background-image: url(../img/testata.png);
   border: 10px solid white;
+  height: 400px;
+  position: relative;
+}
+
+.icona-natural{
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left:50%;
+    position: absolute;
+}
+
+img{
+  height: 250px;
 }
 
 h1{
-  line-height: 330px;
   text-align: center;
   color: white;
 }
